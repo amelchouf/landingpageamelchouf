@@ -1,0 +1,80 @@
+@import url('banner.css');
+@import url('cartes.css');
+@import url('buttons.css');
+
+body{
+	margin: 0
+}
+
+a{
+	text-decoration: none;
+}
+
+.titre h1 {
+position: absolute; top: 5px; right: 1200px; left: 20px;
+font-size: 60px;
+
+}
+
+.banner{
+	background-color: grey;
+	opacity: 0.80;
+
+}
+
+.soustitre h1 {
+text-align: center;
+margin: 0;
+height: 40px;
+text-shadow: 20px;
+border-radius: 12%;
+}
+
+.soustitre p {
+	align-items: center;
+	text-align: center;
+	margin-left: 8%;
+	margin-left: 2%;
+	height: 30px;
+	width: 70%;
+	margin: 40px;
+}
+
+.container{
+	width:80%;
+	margin:0 auto;
+
+}
+
+.carousel-inner{
+	padding: 120px;
+}
+
+.carousel-item .img-fluid{
+	width: 100%;
+	height: 100%;
+}
+
+@media (min-width: 576px) {
+.carousel-item {
+grid-template-columns: 1fr ;
+}
+}
+
+@media (min-width: 768px) {
+.carousel-item {
+grid-template-columns: 1fr ;
+}
+}
+
+@media (min-width: 992px) {
+.carousel-item {
+grid-template-columns: 1fr ;
+}
+}
+
+@media (min-width: 1200px) {
+.carousel-item {
+grid-template-columns: 1fr ;
+}
+}

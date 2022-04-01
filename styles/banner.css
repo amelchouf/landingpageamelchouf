@@ -1,0 +1,23 @@
+.banner{
+	height: 100vh;
+	background-image: url('../images/toit.jpg');
+background-size: cover;
+background-position:left;
+color:white;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.banner h1, .banner h2{
+	text-shadow: 6px 6px 6px black;
+}
+
+.banner-fixed{
+	height: 35vh;
+	background-image: url("../images/friends.jpg");
+	margin: 48px 0;
+	background-size: cover;
+	background-attachment: fixed;
+}
